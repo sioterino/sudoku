@@ -12,11 +12,11 @@ class Cube {
         this.cube = document.createElement('div')
         this.cube.classList.add('cube')
 
-        inputs.forEach(inp => this.cube.append(inp.element()))
+        inputs.forEach(inp => this.cube.append(inp.element))
 
     }
 
-    public element(): HTMLDivElement { return this.cube }
+    public get element(): HTMLDivElement { return this.cube }
 
 }
 

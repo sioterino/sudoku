@@ -7,17 +7,37 @@
 .square {
   height: 50px;
   width: 50px;
+
+  border: 1px solid lightgray;
+  offset: none;
+  outline: none;
+
+  font-size: 1.8rem;
+  text-align: center;
+
+  caret-color: transparent;
+  cursor: default;
 }
 
 .cube {
   display: flex;
   flex-wrap: wrap;
-  width: 150px;
-  margin: 10px;
+  width: 153px;
+  border: 1px solid darkgray;
 }
 
 .table {
   display: flex;
   flex-wrap: wrap;
-  width: 510px;
+  width: 459px;
+  border: 16px solid rgb(194, 164, 138);
+  box-sizing: content-box;
+}
+
+.family-squares {
+  background-color: rgb(216, 227, 243);
+}
+
+.selected-square {
+  background-color: rgb(143, 172, 215);
 }

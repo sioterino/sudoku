@@ -12,7 +12,7 @@ class Table {
         this.table = document.createElement('div')
         this.table.classList.add('table')
 
-        cubes.forEach(cub => this.table.append(cub.element()))
+        cubes.forEach(cub => this.table.append(cub.element))
 
     }
 
