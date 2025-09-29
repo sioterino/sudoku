@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+}
+
+.cube {
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
+  margin: 10px;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  width: 510px;
+}
