@@ -41,3 +41,7 @@
 .selected-square {
   background-color: rgb(143, 172, 215);
 }
+
+.wrong {
+  color: red;
+}
